@@ -1,0 +1,22 @@
+    
+    
+ <h3>Cadastre os seus albuns favs no formulário abaixo</h3>
+
+    <form id="form" action="/" method="post">
+        <fieldset>
+            <legend> Formulário dos albuns </legend>
+            <label for="nomeBanda"> Nome da banda </label>
+            <input type="text" name="nomeBanda" id="banda_nome" /><br><br>
+
+            <label for="nomeAlbum"> Nome do album </label>
+            <input type="text" name="nomeBanda" id="album_nome" /><br><br>
+
+            <label for="anoAlbum"> Ano de lançamento </label>
+            <input type="number" name="nomeBanda" id="ano_album" /><br><br>
+
+            <label for="anoAlbum"> Ano de lançamento </label>
+            <input type="number" name="nomeBanda" id="ano_album" /><br><br>
+
+            <input type="submit" value="Salvar e enviar" /><br><br>
+        </fieldset>
+    </form>
