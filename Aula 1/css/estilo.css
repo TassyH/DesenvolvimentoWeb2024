@@ -54,6 +54,7 @@ p{
     width: 600px;
     border: solid;
     border-color: rgb(163, 54, 54);
+    border-radius: 10px 50px;
 }
 .tituloCabeca{
     color: rgb(255, 255, 255);
