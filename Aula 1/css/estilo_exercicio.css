@@ -50,6 +50,25 @@
     padding: 15px;
     background-color: #dddddd;
     border-style: dashed;
+    height: 300px;
+
+}
+.divSete{
+    margin: 30px;
+    padding: 20px;
+    border-color: #97c3a1;
+    background-color: #db7575;
+    border-style: dotted;
+    height: 300px;
+
+}
+.divOito{
+    border: outset 3px;
+    border-color: #000000;
+    padding: 20px;
+    background-color: #d2691e;
+    height: 300px;
+
 }
 .h2{
     text-align: center;
