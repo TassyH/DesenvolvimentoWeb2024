@@ -1,0 +1,12 @@
+.classe-static{
+    position: static;
+    align-items: center;
+}
+.posicao-relative{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.posicao-absolute{
+    position: absolute;
+}
