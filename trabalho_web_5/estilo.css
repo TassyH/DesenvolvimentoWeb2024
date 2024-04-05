@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+.corpo_geral{
+    width: 1000px;
+    margin: 65px auto 0px;
+}
+.menu_navegacao_superior{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.item_menu_superior{
+    justify-content: space-between;
+}
+.corpo_conteudo{
+    margin: 0px auto;    
+}
+.img_principal{
+    height: 300px;
+
+}
+span{
+    color: #3f3d56;
+}
