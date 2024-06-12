@@ -7,14 +7,16 @@ body{
 }
 .corpo_geral{
     width: 1000px;
-    margin: 65px auto 0px;
+    margin: 65px  auto 55px;
 }
 .menu_navegacao_superior{
     display: flex;
-    height: 200px;
+    height: 100px;
     align-items: center;
     justify-content: flex-end;
     gap: 20px;
+    font-family: "Open Sans", sans-serif;
+
 }
 .item_menu_superior{
     justify-content: space-between;
@@ -32,6 +34,10 @@ body{
     font-family: "Open Sans", sans-serif;
 
 }
+#tituloh1{
+    font-family: "Open Sans", sans-serif;
+
+}
 .texto{
     color: gray;
     font-size: 15px;
@@ -44,4 +50,20 @@ body{
     padding: 1px;
     width: 700px;
     margin: 50px auto 10px;
+}
+a{
+    text-decoration:none;
+    color: gray;
+    margin-left: 20px ;
+    font-family: "Open Sans", sans-serif;
+    height: 22px;
+}
+.divRedeSocial a+a{
+    text-decoration:none;
+    font-family: "Open Sans", sans-serif;
+    height: 22px;
+}
+.divImagemBottom{
+    display: flex;
+    justify-content: start;
 }

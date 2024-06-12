@@ -1,0 +1,14 @@
+h1{
+    color: darkblue;
+    text-align: center;
+}
+p{
+    color:red;
+}
+li{
+    color: dodgerblue;
+    margin: 10px;
+}
+a{
+    color: coral;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 2 bimestre</title>
+</head>
+<body>
+
+    <div class = "pagina">
+        <main>
+            <h1>Formulário de contato uiuiui aiaiai</h1>
+            <form id = "formulario">
+                <fieldset>
+                    <label for="name" >Nome:</label>
+                    <input id="nome1" type="text"><br>
+
+                    <label for="Idade" >Idade:</label>
+                    <input id="idade1" type="number"><br>
+
+                    <label  for="name" >Album favorito</label>
+                    <select class="albumFav" type="select">
+                        <option>Self Title</option>
+                        <option>Vessel</option>
+                        <option>Blurryface</option>
+                        <option>Trench</option>
+                        <option>Scalend And Icy</option>
+                        <option>Clancy</option>
+
+                    </select><br>
+
+                    <label  for="Musica" >Música favorita:</label>
+                    <input class = "musicaFav" type="number"><br>
+
+                    <button type="submit" id="btnEnviar">Enviar</button>
+                </fieldset>
+            </form>
+
+            <h4 id="erro_mensagem"></h2>
+
+            <div id = 'outraDiv'>
+                <table id = "tabela">
+                    <caption> Tabela mundo clikkie</caption>
+                    <tbody>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Idade</th>
+                            <th>Album favorito</th>
+                            <th>Música favorita</th>
+                        </tr>
+                        <tr class = "tr_resultado">
+                            <th id="th_nome">Tassy</th>
+                            <th id="th_idade">15</th>
+                            <th>Clancy</th>
+                            <th>Trees</th>
+                        </tr>
+                    </tbody>
+                </table>
+            
+            </div>
+        </main>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

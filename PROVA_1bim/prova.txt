@@ -1,0 +1,30 @@
+Questão 1)
+html é uma linguagem de marcação usada para criar a estrutura sintáxica da página Web. O HTML é a estruta/esquelo de qualquer página Web na internet, o html é base
+de toda pagina na web. 
+
+Questão 2)
+<head></head>: é uma tag de bloco usada no html que representa tipo o cabeçalho da pagina Web, é meio que literalmente a cabeça da página pois 
+no bloco dessa tag vc define o nome da pagina que vai aparecer no navegador, faz o link com o arquivo .css, etc. Ou seja, é
+a cabeça da página.
+
+<body></body>: como o próprio nome diz, é o corpo da pagina kk. Como o head vai ser onde vc vai colocar as sua marcações/definiçoes basicas da pagina, no body 
+vc vai montar a estrutura do conteúdo da página em si. O body é o bloco onde vc vao colocar tudo que vai aparecer para o usuário que for acessar a página, é onde vc 
+coloca o conteúdo dela, ex: titulos, textos, imagens, divs, links, botoes, etc;
+
+<div></div>: a tag div é uma tag que funciona como um caixa onde vc pode usar como um organizador da dos seus elementos da página html. 
+É uma tag coringa que vc pode usar para colocar os elementos do seu menu, por exemplo, e daí vc faz as configurações de estilo desse menu la no seu css. 
+
+Questão 3)
+<strong>: tag usada para ser tipo um negrito para a sua linha;
+<img>: usada para vc chamar/colocar uma imagem na sua página html;
+<br>: tag usada para quebrar a linha do seu texto.
+
+Questão 4)
+Css significa é uma linguagem de estilização da página HTML, é onde vc coloca o estilo visual dos seus elementos criados no html;
+
+Questão 5)
+Seletor é aquele identificador que vc dá para o elemento que vc criou la no html. 
+ex:
+- .div{}: identificador css usado quando vc identifica o elemento no html com o "class = "; 
+- #divTeste{}: esse é o seletor usado quando vc coloca um id no elemento la no html "id = ";
+- body{}: uma outra forma de vc chamar o elemento html no css é colocar direto a própria tag.
