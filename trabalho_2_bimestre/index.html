@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalho 2 bimestre</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
@@ -12,13 +13,13 @@
             <h1>Formulário de contato uiuiui aiaiai</h1>
             <form id = "formulario">
                 <fieldset>
-                    <label for="name" >Nome:</label>
-                    <input id="nome1" type="text"><br>
+                    <label class="nome" >Nome:</label>
+                    <input id="nome" type="text"><br>
 
-                    <label for="Idade" >Idade:</label>
-                    <input id="idade1" type="number"><br>
+                    <label for="Anos no fandom" >Ano que virou clikkie:</label>
+                    <input id="anoClique" type="number" name="anoEntradaFandom" inputmode="numeric" pattern="[0-9]{4}" ><br>
 
-                    <label  for="name" >Album favorito</label>
+                    <label  class="album" >Album favorito</label>
                     <select class="albumFav" type="select">
                         <option>Self Title</option>
                         <option>Vessel</option>
@@ -29,30 +30,113 @@
 
                     </select><br>
 
-                    <label  for="Musica" >Música favorita:</label>
-                    <input class = "musicaFav" type="number"><br>
+                    <label  class="musica" >Música favorita:</label>
+                    <select class = "musicaFav" type="select">
+
+                        <option>Implicit Demand for Proof</option>
+                        <option>Fall Away</option>
+                        <option>The Pantaloon</option>
+                        <option>Addict with a Pen</option>
+                        <option>Friend, Please</option>
+                        <option>March to the Sea</option>
+                        <option>Johnny Boy</option>
+                        <option>Oh Ms Believer</option>
+                        <option>Air Catcher</option>
+                        <option>Trapdoor</option>
+                        <option>A Car, A Torch, A Death</option>
+                        <option>Taxi Cab</option>
+                        <option>Before You Start Your Day</option>
+                        <option>Isle of Flightless Birds</option>
+
+                        <option>Ode to Sleep</option>
+                        <option>Holding on to You</option>
+                        <option>Migraine</option>
+                        <option>House of Gold</option>
+                        <option>Car Radio</option>
+                        <option>Semi-Automatic</option>
+                        <option>Screen</option>
+                        <option>The Run and Go</option>
+                        <option>Fake You Out</option>
+                        <option>Guns for Hands</option>
+                        <option>Trees</option>
+                        <option>Truce</option>
+
+                        <option>Heavydirtysoul</option>
+                        <option>Stressed Out</option>
+                        <option>Ride</option>
+                        <option>Fairly Local</option>
+                        <option>Tear in My Heart</option>
+                        <option>Lane Boy</option>
+                        <option>The Judge</option>
+                        <option>Doubt</option>
+                        <option>Polarize</option>
+                        <option>We Don't Believe What's on TV</option>
+                        <option>Message Man</option>
+                        <option>Hometown</option>
+                        <option>Not Today</option>
+                        <option>Goner</option>
+
+                        <option>Jumpsuit</option>
+                        <option>Levitate</option>
+                        <option>Morph</option>
+                        <option>My Blood</option>
+                        <option>Chlorine</option>
+                        <option>Smithereens</option>
+                        <option>Neon Gravestones</option>
+                        <option>The Hype</option>
+                        <option>Nico and the Niners</option>
+                        <option>Cut My Lip</option>
+                        <option>Bandito</option>
+                        <option>Pet Cheetah</option>
+                        <option>Legend</option>
+                        <option>Leave the City</option>
+
+                        <option>Good Day</option>
+                        <option>Choker</option>
+                        <option>Shy Away</option>
+                        <option>The Outside</option>
+                        <option>Saturday</option>
+                        <option>Never Take It</option>
+                        <option>Mulberry Street</option>
+                        <option>Formidable</option>
+                        <option>Bounce Man</option>
+                        <option>No Chances</option>
+                        <option>Redecorate</option>
+
+                        <option value="overcompensate">Overcompensate</option>
+                        <option value="next_semester">Next Semester</option>
+                        <option value="backslide">Backslide</option>
+                        <option value="midwest_indigo">Midwest Indigo</option>
+                        <option value="routines_in_the_night">Routines In The Night</option>
+                        <option value="vignette">Vignette</option>
+                        <option value="the_craving_jennas_version">The Craving (Jenna's Version)</option>
+                        <option value="lavish">Lavish</option>
+                      
+                    </select><br>
 
                     <button type="submit" id="btnEnviar">Enviar</button>
                 </fieldset>
             </form>
 
             <h4 id="erro_mensagem"></h2>
+            
+            <div class = "outraDiv">
+                <legend>Tabela mundo clikkie</legend>
 
-            <div id = 'outraDiv'>
                 <table id = "tabela">
-                    <caption> Tabela mundo clikkie</caption>
+
                     <tbody>
                         <tr>
-                            <th>Nome</th>
-                            <th>Idade</th>
-                            <th>Album favorito</th>
-                            <th>Música favorita</th>
+                            <th class = "th_cabecalho">Nome</th>
+                            <th class = "th_cabecalho">Tempo no fandom</th>
+                            <th class = "th_cabecalho">Album favorito</th>
+                            <th class = "th_cabecalho">Música favorita</th>
                         </tr>
                         <tr class = "tr_resultado">
-                            <th id="th_nome">Tassy</th>
-                            <th id="th_idade">15</th>
-                            <th>Clancy</th>
-                            <th>Trees</th>
+                            <th class = "th_corpo" id="th_nome"></th>
+                            <th class = "th_corpo" id="th_tempoClique"></th>
+                            <th class = "th_corpo" id ="th_album"></th>
+                            <th class = "th_corpo" id = "th_musica"></th>
                         </tr>
                     </tbody>
                 </table>

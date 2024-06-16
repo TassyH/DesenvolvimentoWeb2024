@@ -1,0 +1,50 @@
+#tabela{
+   background-color: aqua;
+   border: 1px solid #090909;
+   width: 700px;
+   text-align: center;
+   align-items: center;
+}
+
+
+.th_cabecalho{
+    width: 150px;
+    border-right: 2px solid #090909;
+    border-bottom:1px solid #090909; 
+    border-top: 1px solid #090909;;
+}
+.th_corpo{
+    width: 150px;
+    border-right: 1px solid #090909;
+    border-bottom:1px solid #090909; 
+    font-weight: normal;
+
+    
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+#formulario{
+    width: 700px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+#nome{
+    margin: 8px;
+}
+#anoClique{
+    margin: 8px;
+}
+select[type="select"]{
+    margin: 8px;
+
+}
